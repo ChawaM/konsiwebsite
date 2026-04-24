@@ -422,6 +422,11 @@ footer {
   .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
   .cta-buttons { flex-direction: column; align-items: center; }
 }
+.asb-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 </style>
 </head>
 <body>
@@ -724,82 +729,51 @@ footer {
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section>
-  <div class="section-inner">
-    <span class="section-tag reveal">Testimonials</span>
-    <h2 class="section-title reveal" style="max-width:500px;">Parents and schools love it.</h2>
-    <div class="testimonials-grid">
-      <div class="test-card reveal reveal-delay-1">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-quote">"I used to take half a day off work just to pay school fees at the bank. With Konsi I do it from my phone in two minutes. It's genuinely life-changing."</p>
-        <div class="test-author">
-          <div class="test-avatar" style="background:#f0ffe0">👩</div>
-          <div>
-            <div class="test-name">Mutinta Banda</div>
-            <div class="test-role">Parent of 2 · Lusaka</div>
-          </div>
-        </div>
-      </div>
-      <div class="test-card reveal reveal-delay-2">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-quote">"Our bursar used to spend three days every term reconciling fee payments manually. Now Konsi does it automatically. The Excel export alone saves us 12 hours of work."</p>
-        <div class="test-author">
-          <div class="test-avatar" style="background:#eff6ff">🧑</div>
-          <div>
-            <div class="test-name">Mr. Phiri</div>
-            <div class="test-role">Finance Director · Private School, Ndola</div>
-          </div>
-        </div>
-      </div>
-      <div class="test-card reveal reveal-delay-3">
-        <div class="test-stars">★★★★★</div>
-        <p class="test-quote">"As a university student, I can now remind my parents to pay my fees and they can do it straight from home. No more running to the bank between lectures."</p>
-        <div class="test-author">
-          <div class="test-avatar" style="background:#fef9ec">👨‍🎓</div>
-          <div>
-            <div class="test-name">Bwalya Chisanga</div>
-            <div class="test-role">UNZA Student · Lusaka</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- CTA -->
 <section id="cta">
-  <div style="max-width:1280px;margin:0 auto;">
-    <span class="section-tag reveal" style="background:rgba(141,198,63,0.12);color:var(--lime);border-color:rgba(141,198,63,0.2);">Get Started Today</span>
-    <h2 class="section-title reveal" style="color:#fff;max-width:700px;margin:8px auto 20px;">Ready to pay fees the smart way?</h2>
-    <p class="reveal" style="font-size:18px;color:rgba(255,255,255,0.55);max-width:500px;margin:0 auto 48px;">Download the Konsi app or access it from your browser. Free for parents. Always.</p>
-    <div class="cta-buttons reveal">
-      <a href="#" class="app-store-btn">
-        <div class="asb-icon">🍎</div>
-        <div class="asb-text">
-          <div class="asb-top">Download on the</div>
-          <div class="asb-name">App Store</div>
+  <div class="cta-container">
+    
+    <span class="section-tag">Get Started Today</span>
+
+    <h2 class="section-title">
+      Ready to pay fees the smart way?
+    </h2>
+
+    <p class="section-subtitle">
+      Download the Konsi app or access it from your browser. Free for parents. Always.
+    </p>
+
+    <div class="cta-buttons">
+      
+      <!-- Apple -->
+      <a href="#" class="cta-btn">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+      </a>
+
+      <!-- Google Play -->
+      <a href="#" class="cta-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+      </a>
+
+      <!-- Web -->
+      <a href="#" class="cta-btn web-btn">
+        <div class="web-icon">🌐</div>
+        <div>
+          <div class="btn-top">Use it on</div>
+          <div class="btn-main">Web Browser</div>
         </div>
       </a>
-      <a href="#" class="app-store-btn">
-        <div class="asb-icon">🤖</div>
-        <div class="asb-text">
-          <div class="asb-top">Get it on</div>
-          <div class="asb-name">Google Play</div>
-        </div>
-      </a>
-      <a href="#" class="app-store-btn">
-        <div class="asb-icon">🌐</div>
-        <div class="asb-text">
-          <div class="asb-top">Use it on</div>
-          <div class="asb-name">Web Browser</div>
-        </div>
-      </a>
+
     </div>
-    <p class="reveal" style="margin-top:32px;font-size:13px;color:rgba(255,255,255,0.3);">Available on iOS, Android, and the web · Zambia only</p>
+
+    <p class="cta-footnote">
+      Available on iOS, Android, and the web · Zambia only
+    </p>
+
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer id="contact">
   <div style="max-width:1280px;margin:0 auto;">
@@ -809,7 +783,7 @@ footer {
         <p>School fees, simplified. Konsi connects parents to schools through Zambia's mobile money networks — securely and instantly.</p>
         <div style="margin-top:20px;font-size:13px;color:rgba(255,255,255,0.3);">
           <div>📍 Lusaka, Zambia</div>
-          <div style="margin-top:6px;">✉️ chawa@brivosynaptics.business</div>
+          <div style="margin-top:6px;">✉️ info@konsitech.com</div>
           <div style="margin-top:6px;">📞 +260968144512</div>
         </div>
       </div>
@@ -824,9 +798,7 @@ footer {
       <div class="footer-col">
         <h4>Company</h4>
         <a href="#">About Us</a>
-        <a href="#">Lan Eight Enterprises</a>
-        <a href="#">Careers</a>
-        <a href="#">Press</a>
+        <a href="#">Konsi Tech Services Limited</a>             
         <a href="#contact">Contact</a>
       </div>
       <div class="footer-col">
@@ -839,7 +811,7 @@ footer {
       </div>
     </div>
     <div class="footer-bottom">
-      <div>© 2024 Lan Eight Enterprises Ltd. All rights reserved.</div>
+      <div>© 2024 Konsi Tech Services Ltd. All rights reserved.</div>
       <div class="footer-socials">
         <a href="#" class="social-btn">𝕏</a>
         <a href="#" class="social-btn">in</a>
